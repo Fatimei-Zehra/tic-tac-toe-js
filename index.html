@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>TIC TAC TOE</h1>
+    <table>
+        <tr>
+            <td class="cell" id='cell1' onclick="checkCell()"></td>
+            <td class="cell" id='cell2'  onclick="checkCell()"></td>
+            <td class="cell" id='cell3'  onclick="checkCell()"></td>
+        </tr>
+        <tr>
+            <td class="cell" id='cell4' onclick="checkCell()"></td>
+            <td class="cell" id='cell5' onclick="checkCell()"></td>
+            <td class="cell" id='cell6' onclick="checkCell()"></td>
+        </tr>
+        <tr>
+            <td class="cell" id='cell'></td>
+            <td class="cell" id='cell'></td>
+            <td class="cell" id='cell'></td>
+        </tr>
+    </table>
+    <div class="end-game">
+        <div class="text">hihihi</div>
+        <button id="btnReplay" onClick="startGame()">Restart Game</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

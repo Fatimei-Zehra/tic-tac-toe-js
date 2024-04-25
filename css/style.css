@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+h1{
+    color: orange;
+}
+td{
+    border: 2px solid #333;
+    background-color: darkblue;
+	height: 100px;
+	width: 100px;
+    cursor: pointer;
+}
+
+.text{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+}
+
+#btnReplay{
+    background-color: orange;
+    border: 2px solid grey;
+    padding: 10px 15px;
+   cursor: pointer;
+   margin: 15px 0px;
+}
